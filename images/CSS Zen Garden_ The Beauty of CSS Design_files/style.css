@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h2 {
+    background: url(../img/zen.svg);
+    background-position: left 42% bottom 35%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+body { 
+    background-image: url(../img/bamboo.png);
+    
+}
+
+p {
+    font-size: 10px;
+    font-family: IBM Plex Mono;
+}
+
+h3 {
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+
+}
+ 
+
+div[role="article"] {
+    color:black;
+    line-height: 2;
+    
+}
+/* attribute */
+
+h3 {
+    color: black;
+}
+
+header {
+    background-image: url(../img/huntington.png);
+    height: 200px;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+[role="banner"] h1 {
+        font-family: IBM Plex Mono;
+        font-size: 32px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px black;
+}
+
+[role="banner"] h2 {
+    font-family: Satisfy;
+    font-size: 16px;
+}
+
+.participation p {
+    background-color: rgba(138,188,159,0.5);
+    color: white;
+}
+
+.benefits p{
+    background-color: rgba(138,188,159,0.5);
+    color: white;
+}
+
+[role="contentinfo"] {
+    background-color: #134347;
+    color: grey:
+}
+
+
+.zen-resources {
+    background-color:rgba(138,188,159,0.5);
+    font-family: IBM Plex Mono;
+    text-transform: uppercase;
+}
+.sidebar {
+    background-color: #c0cac3;
+    font-family: IBM Plex Mono;
+    border-top: solid 1px;
+}
+/* .footer {
+    background-color: #134347;
+} */
+
+.design-selection li {
+    border-top: solid 0.5px;
+    border-color: grey;
+    padding
+}
+
+.zen-resources li {
+    border-top: solid 1px;
+    border-color: grey;
+}
+
+.designer-name {
+    color: grey;
+    font-size: 10px;
+}
+.summary {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.preamble p {
+    padding-bottom:5px;
+
+}

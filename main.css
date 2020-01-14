@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    font-size: 12px;
+}
+#Emma {
+    color: blue;
+}
+.center {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f7fcf9;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+#navDisplay {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#Emma {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+}
