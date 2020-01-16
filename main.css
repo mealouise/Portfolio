@@ -1,3 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    background-image: url(../images/whitebackdrop.jpeg);
+    background-position: left 42% bottom 35%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
 h1 {
     color: red;
     font-size: 12px;
@@ -27,4 +41,38 @@ body {
     color:black;
     font-weight: bold;
     font-size: 30px;
+}
+/* .linkedin {
+    transition: border-radius 3s;
+    transition-timing-function: ease-in;
+}
+
+.linkedin:hover {
+    border-radius: 50%;
+} */
+
+.linkedin img {
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin {
+    transition: all 1s ease-in-out;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+}
+
+.github img {
+    width: 50px;
+    height: 50px;
+}
+
+.github {
+    transition: all 1s ease-in-out;
+}
+
+.github:hover {
+    transform: scale(1.1);
 }
